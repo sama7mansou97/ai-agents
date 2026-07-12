@@ -245,4 +245,4 @@ Then record a short demo video showing:
 2. Your customized resume page with your own data
 3. A chat interaction where the AI answers a question about your resume
 
-Submit the video using the [course submission form](https://docs.google.com/forms/d/e/1FAIpQLSdBfMvBMgC-xT34M_gv9plffbaf4Kh4LtWTvOsLT9I4RobNZg/viewform).
+Submit the video using the [course submission form](https://classroom.google.com/c/ODY4NzQ1MjU2NjUx/a/ODcwNTc0MzUzOTI0/details).
