@@ -1,13 +1,13 @@
 {% extends 'layout.html' %}
 {#
-  home.html - the landing page of your AI agent portfolio.
+home.html - the landing page of your AI agent portfolio.
 
-  This page extends layout.html, which provides the nav bar and footer.
-  Everything inside the block content / endblock tags is YOUR content.
+This page extends layout.html, which provides the nav bar and footer.
+Everything inside the block content / endblock tags is YOUR content.
 
-  NOTE: This is one of the two files you should customize for the homework.
-        Replace the placeholder text and image below with your own bio.
-        The other file to edit is flask_app/database/initial_data/*.csv
+NOTE: This is one of the two files you should customize for the homework.
+Replace the placeholder text and image below with your own bio.
+The other file to edit is flask_app/database/initial_data/*.csv
 #}
 
 {% block content %}
@@ -21,28 +21,23 @@
       Profile photo — replace headshot.png with your own image.
       Put your image file in flask_app/static/images/ and update the filename below.
     -->
-    <img
-      src="{{ url_for('static', filename='images/headshot.png') }}"
-      alt="Profile photo"
-      class="profile-photo"
-    >
+    <img src="{{ url_for('static', filename='images/samah.png') }}" alt="Profile photo" class="profile-photo">
 
     <div class="profile-text">
 
       <!-- NOTE: Replace this with your own name -->
-      <h1>Mohammad M. Ghassemi</h1>
+      <h1> Samah M ElQrenawi </h1>
 
       <!-- NOTE: Replace this with your own title or tagline -->
-      <p class="subtitle">Assistant Professor · Computer Science · Michigan State University</p>
+      <p class="subtitle">Software Development Graduate · Data Entry Technical Leader · Flutter Developer</p>
 
       <!--
         NOTE: Replace this paragraph with your own bio (2–4 sentences).
         What do you study? What are you interested in? What's a fun fact about you?
       -->
       <p>
-        I'm a researcher and educator working at the intersection of AI and healthcare.
-        My work focuses on building systems that help clinicians make better decisions
-        using machine learning and natural language processing.
+        Professional software developer and technical data manager. Focused on building high-quality systems, managing
+        comprehensive field operations, and delivering robust cross-platform mobile applications using Flutter and Dart.
       </p>
 
       <a href="/resume" class="btn">View My Resume →</a>

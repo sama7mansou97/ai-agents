@@ -1,7 +1,13 @@
-"experience_id","position_id","name","description","hyperlink","start_date","end_date"
-"1","1","CSE 477","Taught an introductory course on web application design.","https://www.youtube.com/@ghassemi",NULL,NULL
-"2","1","CSE 847","Taught a hands-on introduction to Natural Language Processing.","https://www.youtube.com/@ghassemi",NULL,NULL
-"3","2","Feature Imitating Networks","Developed a new kind of neural network that is better faster and stronger.","https://ghassemi.xyz","2020-01-01",NULL
-"4","3","BRAINWORKS","Developed a platform to organize the scientific literature as a knowledge graph.","https://github.com/deskool/brainworks-public","2020-01-01",NULL
-"5","3","BRIDGE2AI","Developed a $100M initiative to assist with AI research.","https://commonfund.nih.gov/bridge2ai","2020-01-01",NULL
-"6","1","CSE 491","Taught a hands-on introduction to AI Agents.",NULL,NULL,NULL
+experience_id,position_id,name,description,hyperlink,start_date,end_date
+1,1,"Displaced Persons & Damage Registration","Managed comprehensive field data entry covering displaced families and detailed housing infrastructure damage assessments.",NULL,NULL,NULL
+2,1,"Platform Registration & Job Match","Registered citizens on the Palestinian Fund for Employment website and the Job Match portal while resolving platform technical issues.",NULL,NULL,NULL
+3,1,"Complaints & Humanitarian Referral System","Administered citizen complaints and support requests, routing critical cases to specialized officials for emergency aid.",NULL,NULL,NULL
+4,2,"Medical Points Digitization","Carried out field-based data collection and converted paper-based intake forms into organized digital records for Medical Points.",NULL,NULL,NULL
+5,2,"IDP Tracking Coordination","Collaborated with IT department to manage a system tailored for tracking internally displaced persons needs.",NULL,NULL,NULL
+6,2,"Demographic Data Classification","Classified large datasets by demographic and health criteria while maintaining strict confidentiality and child protection principles.",NULL,NULL,NULL
+7,3,"Digital Archiving Standards","Managed high-volume field and office data entry and maintained strict digital archiving standards.",NULL,NULL,NULL
+8,3,"Program Registration Tracking","Administered data tracking for women's development programs ensuring accurate registration and reporting.",NULL,NULL,NULL
+9,3,"Administrative Data Auditing","Reviewed and audited administrative data and prepared statistical updates under strict deadlines.",NULL,NULL,NULL
+10,4,"Technical Instruction","Provided technical instruction and practical mentoring for youths and students in information technology fields.",NULL,NULL,NULL
+11,4,"Database Problem Solving","Delivered technical consultations and resolved programming and database issues for trainees.",NULL,NULL,NULL
+12,5,"Our Safe Spaces Application","Designed and developed the 'Our Safe Spaces' mobile application using Flutter and Dart to support protection services.",NULL,NULL,NULL

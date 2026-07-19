@@ -1,5 +1,9 @@
-"skill_id","experience_id","name","skill_level"
-"1","2","Javascript","7"
-"2","2","Python","10"
-"3","2","HTML","9"
-"4","2","CSS","5"
+skill_id,experience_id,name,skill_level
+1,1,Kobo Toolbox,10
+2,1,Advanced MS Excel (Pivot Tables & Verification),9
+3,3,Office 365 & Google Forms,9
+4,1,Data Quality Assurance & Verification,9
+5,12,Flutter & Dart Mobile Development,8
+6,11,Java Programming,7
+7,5,Database Management,8
+8,6,Child Protection & Ethical Data Principles,10
