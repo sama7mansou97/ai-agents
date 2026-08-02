@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<!-- هنا كود الـ HTML الخاص بالسيرة الذاتية والشات الموجود سابقاً -->
+{% endblock %}
+
+<script>
+    // الاستماع لرسائل الـ Socket وتحديث الصفحة بالكامل فوراً عند نجاح الرد
+    socket.on('receive_message', function (data) {
+        removeTypingIndicator();
+        displayMessage('AI', data.response);
+
+        // إعادة تحميل الصفحة تلقائياً بعد ثانية واحدة لضمان حفظ البيانات في قاعدة البيانات ورؤيتها مباشرة
+        setTimeout(function () {
+            window.location.reload();
+        }, 1000);
+    });
+</script>
