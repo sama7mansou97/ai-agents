@@ -5,14 +5,18 @@
 {% endblock %}
 
 <script>
-    // الاستماع لرسائل الـ Socket وتحديث الصفحة بالكامل فوراً عند نجاح الرد
+    // دالة تحديث محتوى السيرة الذاتية بدون مسح السجل
+    async function refreshResumeContent() {
+        // Re-fetch /resume and swap in just the resume content, so DB writes
+        // made by the AI show up immediately without wiping the chat log.
+        const html = await (await fetch('/resume')).text();
+        const newContent = new DOMParser().parseFromString(html, 'text/html').querySelector('.resume-content');
+        if (newContent) document.querySelector('.resume-content').innerHTML = newContent.innerHTML;
+    }
+
     socket.on('receive_message', function (data) {
         removeTypingIndicator();
         displayMessage('AI', data.response);
-
-        // إعادة تحميل الصفحة تلقائياً بعد ثانية واحدة لضمان حفظ البيانات في قاعدة البيانات ورؤيتها مباشرة
-        setTimeout(function () {
-            window.location.reload();
-        }, 1000);
+        refreshResumeContent(); // <- new line added as required by Step 6
     });
 </script>

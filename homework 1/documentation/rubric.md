@@ -36,3 +36,30 @@ This assignment is graded on a 100 point scale. All grading is based on your dem
 - [ ] Code pushed to your fork: `git push origin main`
 - [ ] Fork URL included in your submission (e.g. `https://github.com/YOUR-USERNAME/ai-agents`) so the grader can access your code
 - [ ] Demo video recorded and uploaded via the [homework submission form](https://docs.google.com/forms/d/e/1FAIpQLSdBfMvBMgC-xT34M_gv9plffbaf4Kh4LtWTvOsLT9I4RobNZg/viewform)
+
+
+  How long did they work at Michigan State University? 
+  How long did they work at [institution]
+
+-  Add a new skill called Docker with a level of 10 to the first experience
+-  Update the skill level of Docker to 8
+-  Delete the skill Docker
+-  Add a new experience under the first position where the name is "Platform Registration & Job Match" and the description is "Registered citizens on the Palestinian Fund for Employment website and the Job Match portal while resolving platform technical issues.
+
+  Does he know React? If not, add it to his most recent experience.
+
+  What is this page about?
+
+
+
+
+What skills do I have related to Python or programming
+
+
+Add a new skill called Docker with a level of 10 to the first experience
+
+Update the skill level of Docker to 8
+
+Delete the skill Docker
+
+Add a new experience under the first position where the name is "Platform Registration & Job Match" and the description is "Registered citizens on the Palestinian Fund for Employment website and the Job Match portal while resolving platform technical issues.
