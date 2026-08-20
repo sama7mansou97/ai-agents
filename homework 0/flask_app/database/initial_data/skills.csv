@@ -1,9 +1,14 @@
 skill_id,experience_id,name,skill_level
 1,1,Kobo Toolbox,10
-2,1,Advanced MS Excel (Pivot Tables & Verification),9
-3,3,Office 365 & Google Forms,9
-4,1,Data Quality Assurance & Verification,9
-5,12,Flutter & Dart Mobile Development,8
-6,11,Java Programming,7
-7,5,Database Management,8
+2,1,Advanced MS Excel (Pivot Tables & Verification),10
+3,3,Office 365 & Google Forms,10
+4,1,Data Quality Assurance & Verification,10
+5,12,Flutter & Dart Mobile Development,10
+6,11,Java Programming,10
+7,5,Database Management,10
 8,6,Child Protection & Ethical Data Principles,10
+9,13,LLM Agents & Multi-Agent Architecture,10
+10,13,Tool Augmentation & Text-to-SQL,9
+11,13,Prompt Engineering & Agent Safety Constraints,10
+12,13,Python & Artificial Intelligence,10
+13,13,Machine Learning & Deep Learning,9

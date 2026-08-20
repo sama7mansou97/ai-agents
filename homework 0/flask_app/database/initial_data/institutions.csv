@@ -5,3 +5,4 @@ inst_id,type,name,department,address,city,state,zip
 4,work,University College of Applied Sciences (UCAS),NULL,NULL,Gaza,Gaza,NULL
 5,work,Community Media Centre (CMC),NULL,NULL,Gaza,Gaza,NULL
 6,education,Islamic University of Gaza,NULL,NULL,Gaza,Gaza,NULL
+7,education,Michigan State University (MSU) / SPOCS,Computer Science & Engineering,NULL,East Lansing,MI,NULL

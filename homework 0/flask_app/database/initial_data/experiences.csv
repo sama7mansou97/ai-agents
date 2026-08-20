@@ -11,3 +11,4 @@ experience_id,position_id,name,description,hyperlink,start_date,end_date
 10,4,"Technical Instruction","Provided technical instruction and practical mentoring for youths and students in information technology fields.",NULL,NULL,NULL
 11,4,"Database Problem Solving","Delivered technical consultations and resolved programming and database issues for trainees.",NULL,NULL,NULL
 12,5,"Our Safe Spaces Application","Designed and developed the 'Our Safe Spaces' mobile application using Flutter and Dart to support protection services.",NULL,NULL,NULL
+13,7,"SPOCS Agentic AI Course Architecture","Examined theoretical foundations of LLM agents multi-step planning memory management and multi-agent collaboration frameworks.",NULL,"2025-09-01","2025-12-31"
